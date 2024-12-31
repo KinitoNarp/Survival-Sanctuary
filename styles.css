@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+h1 {
+    font-family: 'MinecraftiaRegular';
+    font-weight: normal;
+    font-size: normal;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    font-family: 'MinecraftiaRegular';
+    position: absolute;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    left: 44.5%;
+    top: 50%;
+    color: rgb(255, 255, 255);
+}
+
+
+eaglerxip {
+    position: absolute;
+    top: 250px; 
+    left: 30%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-weight: 800;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+eaglerxip:focus,
+eaglerxip:hover {
+  color: #fff;
+}
+
+eaglerxip:focus:after,
+eaglerxip:hover:after {
+  width: 100%;
+  left: 0%;
+}
+eaglerxip:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 1s;
+    transition-property: width, left;
+  }
+
+  javaip {
+    position: absolute;
+    top: 350px; 
+    left: 36%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+javaip:focus,
+javaip:hover {
+  color: #fff;
+}
+
+javaip:focus:after,
+javaip:hover:after {
+  width: 100%;
+  left: 0%;
+}
+javaip:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 1s;
+    transition-property: width, left;
+  }
